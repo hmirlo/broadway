@@ -10,8 +10,9 @@ h1 {
   color: white;
 }
 .header {
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
   background-size: cover;
+  height:
 
 }
 
@@ -19,7 +20,34 @@ a {
   font-size: 18px;
   color: white;
 }
+.identify {
 
+  margin-left: 400px;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url("../icons/identify.svg");
+  background-size: 100px 82px;
+
+}
+
+.understand {
+  margin-left: 400px;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url("../icons/understand.svg");
+  background-size: 100px 82px;
+}
+
+.execute {
+  margin-left: 400px;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url("../icons/execute.svg");
+  background-size: 100px 82px;
+}
 h2 {
   font-size: 32px;
   font-weight: bold;
@@ -35,11 +63,22 @@ p {
   font-size: 14px;
 }
 
-.design {
+
+.design h3 {
   color: white;
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 
-.footer a {
-  color: grey;
+.footer   {
+  color: white;
+  display: inline-block;
+  background-color: dimgray;
+  padding-left: 286px;
+  padding-right: 286px;
+
+}
+
+.footer p {
+  display: inline;
+  font-size: 11px;
 }
